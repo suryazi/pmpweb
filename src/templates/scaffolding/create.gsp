@@ -58,6 +58,10 @@
 									<i class="icon-ok icon-white"></i>
 									<g:message code="default.button.create.label" default="Create" />
 								</button>
+                                                                <g:link class="list" action="list" class="btn btn-warning">
+                                                                        <i class="icon-remove icon-white"></i>
+                                                                        <g:message code="default.button.cancel.label" default="Cancel" />
+                                                                </g:link>
 							</div>
 						</fieldset>
 					</g:form>

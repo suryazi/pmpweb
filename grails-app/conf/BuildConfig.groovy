@@ -43,6 +43,9 @@ grails.project.dependency.resolution = {
         runtime ":resources:1.2.RC2"
         
         compile ":easygrid:1.0.0"
+        compile ":twitter-bootstrap:2.2.2"
+        runtime ":fields:1.3"
+
 
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0"

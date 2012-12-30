@@ -74,7 +74,7 @@
 							<i class="icon-pencil"></i>
 							<g:message code="default.button.edit.label" default="Edit" />
 						</g:link>
-						<button class="btn btn-danger" type="submit" name="_action_delete">
+						<button class="btn btn-danger" type="submit" name="_action_delete" onclick="return confirm('Are you sure?')">
 							<i class="icon-trash icon-white"></i>
 							<g:message code="default.button.delete.label" default="Delete" />
 						</button>
