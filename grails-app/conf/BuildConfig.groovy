@@ -5,7 +5,7 @@ grails.project.test.reports.dir = "target/test-reports"
 grails.project.target.level = 1.6
 grails.project.source.level = 1.6
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
-
+grails.server.port.http = 8083
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
     inherits("global") {
@@ -39,8 +39,10 @@ grails.project.dependency.resolution = {
 
     plugins {
         runtime ":hibernate:$grailsVersion"
-        runtime ":jquery:1.7.2"
-        runtime ":resources:1.1.6"
+        runtime ":jquery:1.8.0"
+        runtime ":resources:1.2.RC2"
+        
+        compile ":easygrid:1.0.0"
 
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0"
@@ -49,8 +51,9 @@ grails.project.dependency.resolution = {
 
         build ":tomcat:$grailsVersion"
 
-        runtime ":database-migration:1.1"
+        runtime ":database-migration:1.2.2"
 
-        compile ':cache:1.0.0'
+        compile ':cache:1.0.1'
     }
 }
+grails.plugin.location.'pmpcore' = "../pmpcore"
