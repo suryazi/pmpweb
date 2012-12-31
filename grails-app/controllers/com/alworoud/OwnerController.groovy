@@ -4,5 +4,5 @@ class OwnerController {
 
     //def index() { }
     static scaffold = true
-    static navigation = ["list", "create","edit"]
+    static navigation = ["list", "create","edit","grid"]
 }
