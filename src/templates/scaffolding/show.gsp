@@ -27,7 +27,7 @@
 							</g:link>
 						</li>
                                                 <li>
-							<g:link class="grid" action="grid">
+							<g:link class="list" action="grid">
 								<i class="icon-th"></i>
 								<g:message code="default.grid.label" args="[entityName]" />
 							</g:link>
