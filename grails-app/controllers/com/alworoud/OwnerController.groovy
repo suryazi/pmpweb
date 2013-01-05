@@ -1,6 +1,5 @@
 package com.alworoud
 
-import org.springframework.dao.DataIntegrityViolationException
 import org.grails.plugin.easygrid.Easygrid
 
 @Easygrid
@@ -18,6 +17,10 @@ class OwnerController {
             columns {
                 id {
                     type 'id'
+                    
+                    jqgrid{
+                        formatter 'linkId'
+                    }
                 }
                 name {
                     filterClosure {params ->

@@ -5,6 +5,11 @@
 		<meta name="layout" content="bootstrap">
                 <g:set var="entityName" value="${message(code: 'owner.label', default: 'Owner')}" />
 		<title><g:message code="default.grid.label" args="[entityName]" /></title>
+                <r:script>
+                    function linkId(cellvalue, options, rowObject) {
+                        return "<a href='/pmpweb/owner/show/" + cellvalue + "'>" + cellvalue + "</a> ";
+                    }
+                </r:script>
                 <r:require modules="easygrid-jqgrid-dev"/>
         </head>
 	<body>
