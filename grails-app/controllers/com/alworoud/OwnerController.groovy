@@ -5,7 +5,6 @@ import org.grails.plugin.easygrid.Easygrid
 @Easygrid
 class OwnerController {
 
-    //def index() { }    
     static grids = {
         ownerGrid {
             dataSourceType 'domain'
