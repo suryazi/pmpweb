@@ -12,7 +12,7 @@
     </g:if>
     colNames: [
     <grid:eachColumn gridConfig="${gridConfig}" >
-        '${message(code: col.label, default: col.label)}'<g:if test="${!last}">,</g:if>
+        '${message(code: col.name, default: col.name)}'<g:if test="${!last}">,</g:if>
     </grid:eachColumn>
     ],
    colModel: [
