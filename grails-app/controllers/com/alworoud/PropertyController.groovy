@@ -57,6 +57,11 @@ class PropertyController {
                         ilike('street',"%${params.street}%")
                     }    
                 }
+                area{
+                    filterClosure{params ->
+                        ilike('area',"%${params.street}%")
+                    }    
+                }
                 city{
                     filterClosure{params ->
                         ilike('city',"%${params.city}%")
