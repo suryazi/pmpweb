@@ -9,7 +9,7 @@
 	<body>
 		<div class="row-fluid">
 			
-			<g:render template="/sidemenucreate"/>
+			<g:render template="/sidemenu" model="[active: 'create']"/>
 			
 			<div class="span9">
 

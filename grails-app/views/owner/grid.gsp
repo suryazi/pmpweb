@@ -14,7 +14,7 @@
         </head>
 	<body>
 		<div class="row-fluid">
-			<g:render template="/sidemenugrid"/>
+			<g:render template="/sidemenu" model="[active: 'grid']"/>
                         <div class="span9">
                           
                                 <div class="page-header">
