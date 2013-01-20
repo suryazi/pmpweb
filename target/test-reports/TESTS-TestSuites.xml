@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="falblawi" id="0" name="DateTagLibTests" package="pmpweb" tests="1" time="2.987" timestamp="2013-01-20T09:10:52">
+      <properties />
+
+      <testcase classname="pmpweb.DateTagLibTests" name="testThisYear" time="2.938" />
+
+      <system-out><![CDATA[--Output from testThisYear--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testThisYear--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

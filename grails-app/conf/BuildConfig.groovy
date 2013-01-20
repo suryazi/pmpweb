@@ -45,6 +45,7 @@ grails.project.dependency.resolution = {
         compile ":easygrid:1.0.0"
         compile ":twitter-bootstrap:2.2.2"
         runtime ":fields:1.3"
+        test ":auto-test:1.0.1"
 
 
         // Uncomment these (or add new ones) to enable additional resources capabilities
